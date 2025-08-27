@@ -467,7 +467,7 @@ export default function AdminPage() {
 
                     <div className="flex gap-2">
                       <Button asChild variant="outline" size="sm">
-                        <Link href={`/lesson/${lesson.id}`}>
+                        <Link href={`/lessons/${lesson.id}`}>
                           <Eye className="mr-2 h-4 w-4" />
                           View
                         </Link>

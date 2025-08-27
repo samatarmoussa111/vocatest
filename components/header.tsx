@@ -19,7 +19,7 @@ export function Header() {
 
           <nav className="hidden md:flex items-center space-x-1">
             <Button variant="ghost" size="sm" asChild>
-              <Link href="/">Home</Link>
+              <Link href="/lessons">Lessons</Link>
             </Button>
             <Button variant="ghost" size="sm" asChild>
               <Link href="/test">Test</Link>
@@ -38,8 +38,8 @@ export function Header() {
           <div className="md:hidden border-t bg-background">
             <nav className="flex flex-col space-y-1 py-2">
               <Button variant="ghost" size="sm" asChild className="justify-start">
-                <Link href="/" onClick={() => setIsMenuOpen(false)}>
-                  Home
+                <Link href="/lessons" onClick={() => setIsMenuOpen(false)}>
+                  Lessons
                 </Link>
               </Button>
               <Button variant="ghost" size="sm" asChild className="justify-start">
