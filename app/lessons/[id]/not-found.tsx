@@ -1,7 +1,7 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { BookOpen } from "lucide-react"
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { BookOpen } from "lucide-react";
 
 export default function NotFound() {
   return (
@@ -12,12 +12,15 @@ export default function NotFound() {
           <CardTitle>Lesson Not Found</CardTitle>
         </CardHeader>
         <CardContent className="text-center">
-          <p className="text-muted-foreground mb-4">The lesson you're looking for doesn't exist or has been removed.</p>
+          <p className="text-muted-foreground mb-4">
+            The lesson you&apos;re looking for doesn&apos;t exist or has been
+            removed.
+          </p>
           <Button asChild>
             <Link href="/">Back to Lessons</Link>
           </Button>
         </CardContent>
       </Card>
     </div>
-  )
+  );
 }
